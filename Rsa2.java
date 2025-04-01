@@ -37,7 +37,7 @@ public class Rsa2 {
                d = x;
            }
        }
-       System.out.println("private Key {e,n} : {" + d + "," + n + "}");
+       System.out.println("private Key {d,n} : {" + d + "," + n + "}");
        System.out.print("Enter the message : ");
        M = sc.nextLong();
        C = modPow(M,e,n);
